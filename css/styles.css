@@ -1,0 +1,481 @@
+body {
+  background-image: url("../images/background-img-test.jpg");
+  background-position: center;
+  background-size: cover;
+  animation: slidein 80s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  max-width: 1520px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  z-index: -1;
+}
+@keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
+}
+body .cont-head {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
+body .cont-head header {
+  width: 100%;
+  height: 7vw;
+}
+body .cont-head .head-img {
+  visibility: hidden;
+  position: relative;
+  right: 31.5rem;
+  top: 1.7rem;
+  width: 12%;
+  height: 11vh;
+}
+body .cont-head .head-img-visibile {
+  display: inline;
+  position: relative;
+  top: 0.8vh;
+  right: 85vh;
+  width: 8%;
+  height: 12vh;
+  border-radius: 50%;
+}
+body .cont-head .title-class {
+  position: relative;
+  bottom: 7vh;
+  left: 2vw;
+  width: 15%;
+}
+body .cont-head .title-modified {
+  position: relative;
+  bottom: 8vh;
+  left: 42vw;
+  width: 15%;
+}
+body .cont-head .title-text-class,
+body .cont-head .title-text-modified {
+  font-size: 30px;
+  text-align: center;
+}
+body .cont-head .lang-class {
+  display: flex;
+  width: 5.5%;
+  position: relative;
+  bottom: 12.2vh;
+  left: 85vw;
+}
+body .cont-head .lang-modified {
+  display: flex;
+  width: 5.5%;
+  position: relative;
+  bottom: 13.2vh;
+  left: 85vw;
+}
+body .cont-head .github-class {
+  width: 2%;
+  position: relative;
+  bottom: 16vh;
+  left: 92vw;
+}
+body .cont-head .github-modified {
+  width: 2%;
+  position: relative;
+  bottom: 17vh;
+  left: 92vw;
+}
+body .cont-head .ita {
+  margin-left: 20px;
+}
+body .cont-head .fr {
+  margin-right: 20px;
+}
+body .cont-head-modified {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  background-color: rgba(61, 75, 104, 0.568627451);
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  z-index: 1;
+}
+body .cont-head-modified header {
+  width: 100%;
+  height: 7vw;
+}
+body .cont-head-modified .head-img {
+  visibility: hidden;
+  position: relative;
+  right: 31.5rem;
+  top: 1.7rem;
+  width: 12%;
+  height: 11vh;
+}
+body .cont-head-modified .head-img-visibile {
+  display: inline;
+  position: relative;
+  top: 0.8vh;
+  right: 85vh;
+  width: 8%;
+  height: 12vh;
+  border-radius: 50%;
+}
+body .cont-head-modified .title-class {
+  position: relative;
+  bottom: 7vh;
+  left: 2vw;
+  width: 15%;
+}
+body .cont-head-modified .title-modified {
+  position: relative;
+  bottom: 8vh;
+  left: 42vw;
+  width: 15%;
+}
+body .cont-head-modified .title-text-class,
+body .cont-head-modified .title-text-modified {
+  font-size: 30px;
+  text-align: center;
+}
+body .cont-head-modified .lang-class {
+  display: flex;
+  width: 5.5%;
+  position: relative;
+  bottom: 12.2vh;
+  left: 85vw;
+}
+body .cont-head-modified .lang-modified {
+  display: flex;
+  width: 5.5%;
+  position: relative;
+  bottom: 13.2vh;
+  left: 85vw;
+}
+body .cont-head-modified .github-class {
+  width: 2%;
+  position: relative;
+  bottom: 16vh;
+  left: 92vw;
+}
+body .cont-head-modified .github-modified {
+  width: 2%;
+  position: relative;
+  bottom: 17vh;
+  left: 92vw;
+  background-color: white;
+  border-radius: 50%;
+}
+body .cont-head-modified .ita {
+  margin-left: 20px;
+}
+body .cont-head-modified .fr {
+  margin-right: 20px;
+}
+body .intro-sect {
+  width: 100%;
+  padding-top: 20vh;
+  padding-bottom: 1vh;
+}
+body .intro-sect .intro {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+}
+body .intro-sect .intro-head {
+  color: rgba(4, 1, 9, 0.625);
+}
+body .intro-sect .intro-p {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 2.5rem;
+  text-align: justify;
+  -moz-text-align-last: center;
+       text-align-last: center;
+  text-shadow: 1px 1px black;
+}
+body .intro-sect .html {
+  text-shadow: 1.5px 1.5px black;
+  color: #f06529;
+}
+body .intro-sect .css {
+  text-shadow: 1.5px 1.5px black;
+  color: #2965f1;
+}
+body .intro-sect .js {
+  text-shadow: 1.5px 1.5px black;
+  color: #f0db4f;
+}
+body .intro-sect picture.middle-hero {
+  display: block;
+  width: 28%;
+  margin: 50px auto;
+}
+body .intro-sect .middle-hero-img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+body .blurred-section {
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  height: 95vh;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: rgba(4, 1, 9, 0.625);
+}
+body .blurred-section .blur-text {
+  font-size: 25px;
+  width: 50%;
+  margin: 10px auto;
+}
+body .blurred-section .comp-title {
+  color: #8aa8ff;
+}
+body .blurred-section .comp-text {
+  width: 80%;
+  margin: 0 auto;
+}
+body .blurred-section .presentation {
+  width: 100%;
+  height: 60vh;
+  margin: 50px auto;
+}
+body .blurred-section .left-ul {
+  list-style-type: none;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #8aa8ff;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0;
+}
+body .blurred-section .left-item {
+  width: 90%;
+  height: 22vh;
+  margin: 53px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ffb84d;
+  border-right: 0;
+  border-top: 0;
+}
+body .blurred-section .left-item:hover {
+  border-color: blue;
+}
+body .blurred-section .right-ul {
+  list-style-type: none;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #8aa8ff;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+}
+body .blurred-section .right-item {
+  width: 90%;
+  height: 22vh;
+  margin: 53px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ffb84d;
+  border-left: 0;
+  border-top: 0;
+}
+body .blurred-section .right-item:hover {
+  border-color: blue;
+}
+body .blurred-section .item-img {
+  width: 20%;
+  height: 15vh;
+  margin-bottom: 32px;
+}
+body .blurred-section .li-img {
+  width: 75%;
+  height: 12.5vh;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+body .blurred-section .item-text {
+  height: 20vh;
+  width: 80%;
+  padding-left: 20px;
+  text-align: left;
+}
+body .blurred-section .ui-header {
+  color: #8aa8ff;
+}
+body .blurred-section .ui-text {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 23px;
+}
+body .blurred-section .hidden-div {
+  opacity: 0;
+}
+body .blurred-section .visible-div {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+body .middle-section {
+  width: 90%;
+  height: 100vh;
+  margin: 40px auto;
+  line-height: 2.5rem;
+  text-align: justify;
+  text-shadow: 1px 4px black;
+}
+body .middle-section .frameworks-div .framework-header {
+  width: 17%;
+  margin: 0 auto;
+  text-align: center;
+}
+body .middle-section .frameworks-div .first-line {
+  width: 100%;
+  margin: 50px auto;
+  opacity: 0;
+}
+body .middle-section .frameworks-div .first-line .bootstrap {
+  display: flex;
+  width: 30%;
+  height: 30vh;
+  margin: 20px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 1px solid #ffb84d;
+}
+body .middle-section .frameworks-div .first-line .bootstrap .bootstrap-logo-div {
+  width: 20%;
+  height: 7vh;
+  margin: 20px auto;
+}
+body .middle-section .frameworks-div .first-line .bootstrap .bootstrap-logo-div .bootstrap-logo {
+  width: 100%;
+  height: 7vh;
+}
+body .middle-section .frameworks-div .first-line .bootstrap .bootstrap-text {
+  width: 100%;
+  height: 25vh;
+  margin: 30px 0 0 30px;
+}
+body .middle-section .frameworks-div .first-line .bootstrap .bootstrap-text .bootstrap-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+body .middle-section .frameworks-div .first-line .bootstrap .bootstrap-text .bootstrap-paragraph {
+  font-size: 15px;
+  width: 95%;
+  height: 14vh;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 2;
+}
+body .middle-section .frameworks-div .first-line .tailwind {
+  display: flex;
+  width: 30%;
+  height: 30vh;
+  margin: 20px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 1px solid #ffb84d;
+}
+body .middle-section .frameworks-div .first-line .tailwind .tailwind-logo-div {
+  width: 20%;
+  height: 7vh;
+  margin: 20px auto;
+}
+body .middle-section .frameworks-div .first-line .tailwind .tailwind-logo-div .tailwind-logo {
+  width: 100%;
+  height: 7vh;
+}
+body .middle-section .frameworks-div .first-line .tailwind .tailwind-text {
+  width: 100%;
+  height: 25vh;
+  margin: 30px 0 0 30px;
+}
+body .middle-section .frameworks-div .first-line .tailwind .tailwind-text .tailwind-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+body .middle-section .frameworks-div .first-line .tailwind .tailwind-text .tailwind-paragraph {
+  font-size: 15px;
+  width: 95%;
+  height: 14vh;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 2;
+}
+body .middle-section .frameworks-div .first-line .sass {
+  display: flex;
+  width: 30%;
+  height: 30vh;
+  margin: 20px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 1px solid #ffb84d;
+}
+body .middle-section .frameworks-div .first-line .sass .sass-logo-div {
+  width: 20%;
+  height: 7vh;
+  margin: 20px auto;
+}
+body .middle-section .frameworks-div .first-line .sass .sass-logo-div .sass-logo {
+  width: 100%;
+  height: 7vh;
+}
+body .middle-section .frameworks-div .first-line .sass .sass-text {
+  width: 100%;
+  height: 25vh;
+  margin: 30px 0 0 30px;
+}
+body .middle-section .frameworks-div .first-line .sass .sass-text .sass-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+body .middle-section .frameworks-div .first-line .sass .sass-text .sass-paragraph {
+  font-size: 15px;
+  width: 95%;
+  height: 14vh;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 2;
+}
+@keyframes jumpIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body .middle-section .frameworks-div .first-line-modified {
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  animation: jumpIn 1s ease-in-out forwards;
+}/*# sourceMappingURL=styles.css.map */
